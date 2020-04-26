@@ -3,12 +3,17 @@ Um projeto que simula uma api-gateway, onde, internamente, ela sabe quais servi�
 
 O cliente pode solicitar os serviços de Somar, subtração, multiplicação e divisão de 2 números, os quais passam por uma pre-validação dos parâmetros enviados através do serviço de validação de números.
 
++--------------+--------+----------------------------+
 |      URL     | MÉTODO |      Resposta Sucesso      |
-|:------------:|:------:|:--------------------------:|
++--------------+--------+----------------------------+
 | /somar       | POST   | resultado da soma          |
++--------------+--------+----------------------------+
 | /subtrair    | POST   | resultado da subtração     |
++--------------+--------+----------------------------+
 | /multiplicar | POST   | resultado da multiplicação |
++--------------+--------+----------------------------+
 | /dividir     | POST   | resultado da divisão       |
++--------------+--------+----------------------------+
 
 * valor1 -> Number
 * valor1 -> Number
