@@ -1,0 +1,7 @@
+{
+    "name": "pos/aula-php",
+    "description": "Nivelamento PHP",
+    "require": {
+        "slim/slim": "^3"
+    }
+}

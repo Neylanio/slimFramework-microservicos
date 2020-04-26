@@ -1,0 +1,3 @@
+<?php
+
+$valor = "NOVO VALOR";
